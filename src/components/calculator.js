@@ -14,29 +14,29 @@ class Calculator extends React.Component {
           0
         </div>
         <div className="calculator-keyboard">
-          <div className="calculator-key">AC</div>
-          <div className="calculator-key">+/-</div>
-          <div className="calculator-key">%</div>
-          <div className="calculator-key calculator-key-orange">÷</div>
+          <button type="button" className="calculator-key">AC</button>
+          <button type="button" className="calculator-key">+/-</button>
+          <button type="button" className="calculator-key">%</button>
+          <button type="button" className="calculator-key calculator-key-orange">÷</button>
 
-          <div className="calculator-key">7</div>
-          <div className="calculator-key">8</div>
-          <div className="calculator-key">9</div>
-          <div className="calculator-key calculator-key-orange">×</div>
+          <button type="button" className="calculator-key">7</button>
+          <button type="button" className="calculator-key">8</button>
+          <button type="button" className="calculator-key">9</button>
+          <button type="button" className="calculator-key calculator-key-orange">×</button>
 
-          <div className="calculator-key">4</div>
-          <div className="calculator-key">5</div>
-          <div className="calculator-key">6</div>
-          <div className="calculator-key calculator-key-orange">-</div>
+          <button type="button" className="calculator-key">4</button>
+          <button type="button" className="calculator-key">5</button>
+          <button type="button" className="calculator-key">6</button>
+          <button type="button" className="calculator-key calculator-key-orange">-</button>
 
-          <div className="calculator-key">1</div>
-          <div className="calculator-key">2</div>
-          <div className="calculator-key">3</div>
-          <div className="calculator-key calculator-key-orange">+</div>
+          <button type="button" className="calculator-key">1</button>
+          <button type="button" className="calculator-key">2</button>
+          <button type="button" className="calculator-key">3</button>
+          <button type="button" className="calculator-key calculator-key-orange">+</button>
 
-          <div className="calculator-key calculator-key-zero">0</div>
-          <div className="calculator-key">.</div>
-          <div className="calculator-key calculator-key-orange">=</div>
+          <button type="button" className="calculator-key calculator-key-zero">0</button>
+          <button type="button" className="calculator-key">.</button>
+          <button type="button" className="calculator-key calculator-key-orange">=</button>
         </div>
       </div>
     );
