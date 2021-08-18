@@ -4,7 +4,7 @@
 
 > "Math Magicians" is a website for all fans of mathematics.
 
-![screenshot](./screenshot.png)
+![screenshot](./src/screenshot.png)
 
 Description of the app goes here.
 
