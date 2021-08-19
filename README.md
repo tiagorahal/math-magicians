@@ -10,7 +10,8 @@ Description of the app goes here.
 
 ## Built With
 
-- HTML & CSS
+- HTML
+- CSS
 - JavaScript
 - React
 
