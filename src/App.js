@@ -1,15 +1,13 @@
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import Calculator from './components/calculator';
+import './App.css';
+import './components/componentStyles.css';
+import Calculator from './components/Calculator';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-
   render() {
     return (
-      <div className="App">
+      <div>
         <Calculator />
       </div>
     );
