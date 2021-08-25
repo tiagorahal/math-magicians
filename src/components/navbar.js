@@ -5,9 +5,9 @@ import {
   Route,
   Link,
 } from 'react-router-dom';
-import Home from './Home';
-import Calculator from './Calculator';
-import Quote from './Quote';
+import Home from './home';
+import Calculator from './calculator';
+import Quote from './quote';
 import './Navbar.css';
 
 const Navbar = () => (
