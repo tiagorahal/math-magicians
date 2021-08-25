@@ -1,14 +1,20 @@
+.calculator-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .calculator {
-  max-width: 360px;
-  margin: auto;
+  width: 360px;
+  min-width: 360px;
+  border: 1px solid #444;
 }
 
 .calculator-display {
-  height: 2rem;
+  height: 4rem;
   padding: 1rem;
   font-size: 2rem;
   text-align: end;
-  background-color: #888;
+  background-color: #444;
   color: #fff;
 }
 
@@ -19,7 +25,7 @@
 
 .calculator-key {
   padding: 1rem;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
   text-align: center;
   background-color: #eee;
   user-select: none;
@@ -31,5 +37,12 @@
 }
 
 .calculator-key-orange {
-  background-color: #f80;
+  background-color: #f84;
+}
+
+@media screen and (max-width: 720px) {
+  .calculator-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }

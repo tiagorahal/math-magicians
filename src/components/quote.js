@@ -1,5 +1,5 @@
 import React from 'react';
-import './quote.css';
+import './Quote.css';
 
 const Quote = () => (
   <main className="quote-content">
