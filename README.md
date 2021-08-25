@@ -14,10 +14,6 @@ Description of the app goes here.
 - JavaScript
 - React
 
-## Live Demo
-
-[Live Demo Link](https://tiagorahal.github.io/math-magicians)
-
 
 ## Getting Started
 
