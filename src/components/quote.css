@@ -1,0 +1,18 @@
+.quote-content {
+  margin: 20vh 4rem auto;
+}
+
+.quote-content > * {
+  font-size: 1.5rem;
+}
+
+.quote-author {
+  font-weight: bold;
+  float: right;
+}
+
+@media screen and (max-width: 720px) {
+  .quote-content {
+    margin: 10vh 0;
+  }
+}
