@@ -58,6 +58,12 @@ You can either build a local production version of the project or open it direct
 
 ## Authors
 
+👤 **Luis Octavio Ramirez Cruz**
+
+- GitHub: [LOctavio](https://github.com/LOctavio)
+- Twitter: [@Octavio_ram431](https://twitter.com/Octavio_ram431)
+- LinkedIn: [Luis Octavio Ramirez Cruz](https://www.linkedin.com/in/luis-octavio-ramirez-cruz/)
+
 👨‍💻 **Tiago Rahal Aires**
 
 - GitHub: [@tiagorahal](https://github.com/tiagorahal)
