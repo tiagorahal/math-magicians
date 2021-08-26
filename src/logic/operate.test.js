@@ -21,7 +21,7 @@ describe('test the operate module', () => {
     expect(operate(2, 0, '÷')).toEqual('0');
   });
 
-  test('adds two numbers', () => {
+  test('divide two numbers and get the remainder', () => {
     expect(Number(operate(2, 3, '%'))).toEqual(2);
   });
 });
