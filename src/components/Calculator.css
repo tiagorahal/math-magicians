@@ -1,0 +1,35 @@
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.display {
+  height: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: end;
+  background-color: #888;
+  color: #fff;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.key {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #eee;
+  user-select: none;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
