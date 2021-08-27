@@ -56,4 +56,12 @@ describe('calculate', () => {
   test("when press '.' it adds the '0.' if total doesn't exists", () => {
     expect(calculate({ total: null, next: null }, '.')).toEqual({ total: '0.' });
   });
+
+  test('it retrns Zero when divide between zero', () => {
+    expect(calculate({ total: '3', next: '0', operation: '÷' }, '=')).toEqual({ next: null, operation: null, total: '0' });
+  });
+
+  test('it retrns remainder of a division', () => {
+    expect(calculate({ total: '3', next: '2', operation: '%' }, '=')).toEqual({ next: null, operation: null, total: '1' });
+  });
 });
