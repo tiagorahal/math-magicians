@@ -3,8 +3,9 @@ import React from 'react';
 const Quote = () => (
   <div className="quote-container">
     <h3>
-      “Somewhere, something incredible is waiting to be known.”
-      ― Carl Sagan
+      Mathematics is not about numbers, equations, computations, or algorithms: it is about
+      understanding.
+      - William Paul Thurston
     </h3>
   </div>
 );
