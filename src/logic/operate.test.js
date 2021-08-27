@@ -26,12 +26,10 @@ describe('test the operate module', () => {
   });
 
   test('give an error if given a wrong operator', () => {
-    try { operate(2, 3, '*') }
-    catch (err) { expect(err + '').toBe("Error: Unknown operation '*'") }
+    try { operate(2, 3, '*'); } catch (err) { expect(`${err}`).toBe("Error: Unknown operation '*'"); }
   });
 
   test('give an error if given a wrong number', () => {
-    try { operate(2, 'd', 'x') }
-    catch (err) { expect(err + '').toBe("Error: [big.js] Invalid number") }
+    try { operate(2, 'd', 'x'); } catch (err) { expect(`${err}`).toBe('Error: [big.js] Invalid number'); }
   });
 });
